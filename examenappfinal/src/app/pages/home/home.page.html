@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Hola 👋</ion-card-title>
+      <ion-card-subtitle>Bienvenido al sistema</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Puedes ir a tu perfil y editar tu información.</p>
+
+      <ion-button expand="full" routerLink="/home/profile">
+        Ir a Perfil
+      </ion-button>
+
+      <ion-button expand="full" color="danger" (click)="logout()">
+        Cerrar Sesión
+      </ion-button>
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

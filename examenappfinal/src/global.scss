@@ -1,0 +1,59 @@
+@import "@ionic/angular/css/core.css";
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+@import '@ionic/angular/css/palettes/dark.system.css';
+
+html, body, ion-app {
+  --ion-background-color: #82d0ff;
+  --ion-text-color: #001320;
+}
+
+ion-content {
+  --background: linear-gradient(180deg, #82d0ff, #006bff);
+  --ion-text-color: #ffffff;
+}
+
+ion-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+ion-card-title, ion-label {
+  color: #00334c;
+}
+
+ion-button {
+  --border-radius: 12px;
+  font-weight: 600;
+}
+
+ion-button[color="primary"] {
+  --background: #003cff;
+  --color: white;
+}
+
+.login-button {
+  --background: #ffffff;
+  --background-hover: #f2f2f2;
+  --background-focused: #e6e6e6;
+  --background-activated: #e6e6e6;
+  --border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  height: 48px;
+  width: 100%;
+}
+
+.login-button-text {
+  color: #001428;
+  font-size: 1rem;
+  font-weight: 600;
+}
